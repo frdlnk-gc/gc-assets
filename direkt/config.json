@@ -1,0 +1,327 @@
+{
+ "_info": "gc-direkt v1 – Schalter und Stellenbindung. Erzeugt von claude-tools/funnel_direkt/build_config.py. Live nur, wenn aktiv=true UND seiten[...].aktiv=true. Testmodus: Seite mit ?gc_direkt=test öffnen.",
+ "version": 1,
+ "aktiv": false,
+ "endpoint": "https://gywqlgqmjgflsrymmtjt.supabase.co/functions/v1/bewerbung-eingang-v3",
+ "rest": "https://gywqlgqmjgflsrymmtjt.supabase.co/rest/v1/rpc",
+ "apikey": "sb_publishable_m33hKUO4ZIDvHLm-qqd-tg_XsJ4Di2T",
+ "turnstile_sitekey": "",
+ "datenschutz_url": "https://www.green-careers.de/datenschutz",
+ "privacy_text": "Ich habe die Datenschutzhinweise gelesen.",
+ "whatsapp_text": "Ich bin unter dieser Nummer per WhatsApp erreichbar. Der Betrieb und GreenCareers dürfen mich dort zu dieser Bewerbung kontaktieren.",
+ "whatsapp_version": "w21-betrieb-und-gc-20261006",
+ "seiten": {
+  "klyma.green-careers.de/": {
+   "kunde": "klyma",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-facharbeiter-galabau-unbefristet-in-hilden",
+   "bereich_vorschlag": [
+    "galabau"
+   ],
+   "aktiv": false
+  },
+  "josef-poetter.green-careers.de/": {
+   "kunde": "josef-poetter",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-gartner-unbefristet-in-hattingen",
+   "bereich_vorschlag": [
+    "galabau"
+   ],
+   "aktiv": false
+  },
+  "ahrens.green-careers.de/": {
+   "kunde": "ahrens",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-facharbeiter-unbefristet-in-munster",
+   "bereich_vorschlag": [
+    "galabau"
+   ],
+   "aktiv": false
+  },
+  "lemberghof.green-careers.de/": {
+   "kunde": "lemberghof",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-abteilungsleiter-produktion-unbefristet-in-erdmannhausen",
+   "bereich_vorschlag": [
+    "gaertnerei"
+   ],
+   "aktiv": false
+  },
+  "schmalzried.green-careers.de/": {
+   "kunde": "schmalzried",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-facharbeiter-galabau-unbefristet-in-deiningen",
+   "bereich_vorschlag": [
+    "galabau"
+   ],
+   "aktiv": false
+  },
+  "beck-galabau.green-careers.de/": {
+   "kunde": "beck-galabau",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-vorarbeiter-galabau-unbefristet-in-lohfelden",
+   "bereich_vorschlag": [
+    "galabau"
+   ],
+   "aktiv": false
+  },
+  "fischer-landschaftsbau.green-careers.de/": {
+   "kunde": "fischer-landschaftsbau",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-facharbeiter-galabau-unbefristet-in-bonndorf-1",
+   "bereich_vorschlag": [
+    "galabau"
+   ],
+   "aktiv": false
+  },
+  "floess-architekten.green-careers.de/": {
+   "kunde": "floess-architekten",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-bauleiter-unbefristet-in-villingen-schwenningen",
+   "bereich_vorschlag": [],
+   "aktiv": false
+  },
+  "flaechenagentur-bw.green-careers.de/": {
+   "kunde": "flaechenagentur-bw",
+   "zuordnung": "vorschlag",
+   "job_slug": "voll-teilzeit-geschaftsfuhrer-unbefristet-in-ostfildern",
+   "bereich_vorschlag": [],
+   "aktiv": false
+  },
+  "ibw-bau.green-careers.de/": {
+   "kunde": "ibw-bau",
+   "zuordnung": "vorschlag",
+   "stellen": {
+    "Baggerfahrer/ Erfahrung im Straßen- und Tiefbau (m/w/d)": "vollzeit-baggerfahrer-erfahrung-im-strassen-und-tiefbau-mwd-unbefristet-in-heiligengrabe",
+    "Straßenbaufacharbeiter (m/w/d)": "vollzeit-strassenbaufacharbeiter-unbefristet-in-pritzwalk"
+   },
+   "bereich_vorschlag": [
+    "tiefbau"
+   ],
+   "aktiv": false
+  },
+  "eric-cornils.green-careers.de/": {
+   "kunde": "eric-cornils",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-facharbeiter-galabau-unbefristet-in-koln-11",
+   "bereich_vorschlag": [
+    "galabau"
+   ],
+   "aktiv": false
+  },
+  "fedder-zuenkler.green-careers.de/": {
+   "kunde": "fedder-zuenkler",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-landschaftsgartner-unbefristet-in-laer",
+   "bereich_vorschlag": [
+    "galabau"
+   ],
+   "aktiv": false
+  },
+  "plangis.green-careers.de/": {
+   "kunde": "plangis",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-landschaftsplaner-unbefristet-in-leer",
+   "bereich_vorschlag": [],
+   "aktiv": false
+  },
+  "knappmann.green-careers.de/": {
+   "kunde": "knappmann",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-facharbeiter-galabau-unbefristet-in-essen-2",
+   "bereich_vorschlag": [
+    "galabau"
+   ],
+   "aktiv": false
+  },
+  "saatzucht-breun.green-careers.de/": {
+   "kunde": "saatzucht-breun",
+   "zuordnung": "vorschlag",
+   "stellen": {
+    "Agrarwirtschaftlicher Technischer Assistent (m/w/d) – Bovenden": "voll-teilzeit-agrarwirtschaftlicher-technischer-assistent-unbefristet-in-bovenden",
+    "Agrarwirtschaftlicher Technischer Assistent (m/w/d) – Quedlinburg": "teilzeit-agrarwirtschaftlicher-technischer-assistent-unbefristet-in-quedlinburg"
+   },
+   "bereich_vorschlag": [],
+   "sperre": "a1_areas ohne Landwirtschaft (Frage an Patric)",
+   "aktiv": false
+  },
+  "floreana-hydrokultur.green-careers.de/": {
+   "kunde": "floreana-hydrokultur",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-facharbeiter-grunpflege-unbefristet-in-hamburg-1",
+   "bereich_vorschlag": [
+    "gruenpflege"
+   ],
+   "aktiv": false
+  },
+  "quathamer.green-careers.de/": {
+   "kunde": "quathamer",
+   "zuordnung": "vorschlag",
+   "stellen": {
+    "Facharbeiter GaLaBau (m/w/d) – Bad Zwischenahn": "vollzeit-facharbeiter-galabau-unbefristet-in-bad-zwischenahn",
+    "Facharbeiter Grünpflege (m/w/d) – Bad Zwischenahn": "vollzeit-facharbeiter-grunpflege-unbefristet-in-bad-zwischenahn"
+   },
+   "bereich_vorschlag": [
+    "galabau"
+   ],
+   "aktiv": false
+  },
+  "rednecks-farming.green-careers.de/": {
+   "kunde": "rednecks-farming",
+   "zuordnung": "vorschlag",
+   "job_slug": "voll-teilzeit-landschaftsgartner-unbefristet-in-heppenheim-bergstrasse",
+   "bereich_vorschlag": [
+    "galabau"
+   ],
+   "aktiv": false
+  },
+  "anklamer-agrar.green-careers.de/": {
+   "kunde": "anklamer-agrar",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-herdenmanager-unbefristet-in-bargischow",
+   "bereich_vorschlag": [],
+   "sperre": "a1_areas ohne Landwirtschaft (Frage an Patric)",
+   "aktiv": false
+  },
+  "gzimi.green-careers.de/": {
+   "kunde": "gzimi",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-bauleiter-unbefristet-in-olching",
+   "bereich_vorschlag": [
+    "galabau"
+   ],
+   "aktiv": false
+  },
+  "milchhof-zumbrink.green-careers.de/": {
+   "kunde": "milchhof-zumbrink",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-bereichsleitung-pflanzenbau-unbefristet-in-beeskow",
+   "bereich_vorschlag": [],
+   "sperre": "a1_areas ohne Landwirtschaft (Frage an Patric)",
+   "aktiv": false
+  },
+  "gruner-wurm.green-careers.de/": {
+   "kunde": "gruner-wurm",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-bauleiter-unbefristet-in-braunschweig",
+   "bereich_vorschlag": [
+    "galabau"
+   ],
+   "aktiv": false
+  },
+  "selders.green-careers.de/": {
+   "kunde": "selders",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-bauleiter-galabau-unbefristet-in-neuss",
+   "bereich_vorschlag": [
+    "galabau"
+   ],
+   "aktiv": false
+  },
+  "milchhof-friesian.green-careers.de/": {
+   "kunde": "milchhof-friesian",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-herdenmanager-unbefristet-in-rukieten",
+   "bereich_vorschlag": [],
+   "sperre": "a1_areas ohne Landwirtschaft (Frage an Patric)",
+   "aktiv": false
+  },
+  "bartling-landtechnik.green-careers.de/": {
+   "kunde": "bartling-landtechnik",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-kundenberater-unbefristet-in-versmold",
+   "bereich_vorschlag": [],
+   "sperre": "a1_areas ohne Landwirtschaft (Frage an Patric)",
+   "aktiv": false
+  },
+  "hermann-rothe-gartenbau.green-careers.de/": {
+   "kunde": "hermann-rothe-gartenbau",
+   "zuordnung": "vorschlag",
+   "job_slug": "voll-teilzeit-buchhalter-unbefristet-in-berlin",
+   "bereich_vorschlag": [
+    "gaertnerei"
+   ],
+   "aktiv": false
+  },
+  "gut-roegnitztal.green-careers.de/": {
+   "kunde": "gut-roegnitztal",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-tierwirt-fachbereich-schwein-unbefristet-in-vielank",
+   "bereich_vorschlag": [],
+   "sperre": "a1_areas ohne Landwirtschaft (Frage an Patric)",
+   "aktiv": false
+  },
+  "surmann-gartenbau.green-careers.de/": {
+   "kunde": "surmann-gartenbau",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-fach-vorarbeiter-galabau-unbefristet-in-recklinghausen-1",
+   "bereich_vorschlag": [
+    "galabau"
+   ],
+   "aktiv": false
+  },
+  "zwoenitzer-agrar.green-careers.de/": {
+   "kunde": "zwoenitzer-agrar",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-anlagenfahrer-mechaniker-unbefristet-in-zwonitz",
+   "bereich_vorschlag": [],
+   "sperre": "a1_areas ohne Landwirtschaft (Frage an Patric)",
+   "aktiv": false
+  },
+  "plan-b-galabau.green-careers.de/": {
+   "kunde": "plan-b-galabau",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-facharbeiter-galabau-unbefristet-in-stemwede",
+   "bereich_vorschlag": [
+    "galabau"
+   ],
+   "aktiv": false
+  },
+  "koenig-galabau.green-careers.de/": {
+   "kunde": "koenig-galabau",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-vorarbeiter-galabau-unbefristet-in-heikendorf",
+   "bereich_vorschlag": [
+    "galabau"
+   ],
+   "aktiv": false
+  },
+  "agrar-planetal-golzow.green-careers.de/": {
+   "kunde": "agrar-planetal-golzow",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-herdenmanager-unbefristet-in-golzow",
+   "bereich_vorschlag": [],
+   "sperre": "a1_areas ohne Landwirtschaft (Frage an Patric)",
+   "aktiv": false
+  },
+  "reitstall-pavel.green-careers.de/": {
+   "kunde": "reitstall-pavel",
+   "zuordnung": "vorschlag",
+   "job_slug": "voll-teilzeit-vorarbeiter-unbefristet-in-calden-1",
+   "bereich_vorschlag": [],
+   "sperre": "a1_areas ohne Landwirtschaft (Frage an Patric)",
+   "aktiv": false
+  },
+  "bellinger.green-careers.de/": {
+   "kunde": "bellinger",
+   "zuordnung": "vorschlag",
+   "stellen": {
+    "Tiefbaufacharbeiter (m/w/d) – Unstrut-Hainich": "vollzeit-tiefbaufacharbeiter-unbefristet-in-unstrut-hainich",
+    "Tiefbaufacharbeiter (m/w/d) – Hildburghausen": "vollzeit-tiefbaufacharbeiter-unbefristet-in-hildburghausen"
+   },
+   "bereich_vorschlag": [
+    "tiefbau"
+   ],
+   "aktiv": false
+  },
+  "knappmann.green-careers.de/rommerskirchen/": {
+   "kunde": "knappmann",
+   "zuordnung": "vorschlag",
+   "job_slug": "vollzeit-landschaftsgartner-unbefristet-in-rommerskirchen",
+   "bereich_vorschlag": [
+    "galabau"
+   ],
+   "aktiv": false
+  }
+ }
+}
