@@ -56,6 +56,9 @@
   /* ---------- Stelle / Manifest ---------- */
   function jobSlug() {
     var st = window.S && window.S.stelle;
+    /* Testmodus: von Patric bestätigte synthetische Teststelle statt der echten Stelle */
+    if (D.test && SEITE.test_stellen && st && SEITE.test_stellen[st]) return SEITE.test_stellen[st];
+    if (D.test && SEITE.test_job_slug) return SEITE.test_job_slug;
     if (SEITE.stellen && st && SEITE.stellen[st]) return SEITE.stellen[st];
     return SEITE.job_slug || null;
   }
@@ -81,9 +84,10 @@
   }
   function ladeManifest() {
     /* Alle Stellen der Seite vorab prüfen. Ist eine nicht annahmebereit, bleibt die Seite beim alten Weg. */
-    var slugs = [];
-    if (SEITE.job_slug) slugs.push(SEITE.job_slug);
-    for (var k in (SEITE.stellen || {})) if (slugs.indexOf(SEITE.stellen[k]) < 0) slugs.push(SEITE.stellen[k]);
+    var slugs = [], quelle = D.test && (SEITE.test_job_slug || SEITE.test_stellen) ?
+      { job_slug: SEITE.test_job_slug, stellen: SEITE.test_stellen } : SEITE;
+    if (quelle.job_slug) slugs.push(quelle.job_slug);
+    for (var k in (quelle.stellen || {})) if (slugs.indexOf(quelle.stellen[k]) < 0) slugs.push(quelle.stellen[k]);
     if (!slugs.length) { D.grund = "keine_stelle"; return Promise.resolve(false); }
     return Promise.all(slugs.map(function (s) { return manifestFuer(s); }))
       .then(function () { return true; })
