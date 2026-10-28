@@ -23,7 +23,7 @@
   "josef-poetter.green-careers.de/": {
    "kunde": "josef-poetter",
    "zuordnung": "vorschlag",
-   "job_slug": "vollzeit-gartner-unbefristet-in-hattingen",
+   "job_slug": "vollzeit-gartner-unbefristet-in-gronau-westfalen",
    "bereich_vorschlag": [
     "galabau"
    ],
@@ -112,7 +112,7 @@
   "fedder-zuenkler.green-careers.de/": {
    "kunde": "fedder-zuenkler",
    "zuordnung": "vorschlag",
-   "job_slug": "vollzeit-landschaftsgartner-unbefristet-in-laer",
+   "job_slug": "vollzeit-disponent-unbefristet-in-laer",
    "bereich_vorschlag": [
     "galabau"
    ],
@@ -121,7 +121,7 @@
   "plangis.green-careers.de/": {
    "kunde": "plangis",
    "zuordnung": "vorschlag",
-   "job_slug": "vollzeit-landschaftsplaner-unbefristet-in-leer",
+   "job_slug": "vollzeit-landschaftsplaner-unbefristet-in-hannover",
    "bereich_vorschlag": [],
    "aktiv": false
   },
@@ -158,7 +158,7 @@
    "kunde": "quathamer",
    "zuordnung": "vorschlag",
    "stellen": {
-    "Facharbeiter GaLaBau (m/w/d) – Bad Zwischenahn": "vollzeit-facharbeiter-galabau-unbefristet-in-bad-zwischenahn",
+    "Facharbeiter GaLaBau (m/w/d) – Bad Zwischenahn": "vollzeit-fach-vorarbeiter-galabau-unbefristet-in-bad-zwischenahn",
     "Facharbeiter Grünpflege (m/w/d) – Bad Zwischenahn": "vollzeit-facharbeiter-grunpflege-unbefristet-in-bad-zwischenahn"
    },
    "bereich_vorschlag": [
@@ -212,7 +212,7 @@
   "selders.green-careers.de/": {
    "kunde": "selders",
    "zuordnung": "vorschlag",
-   "job_slug": "vollzeit-bauleiter-galabau-unbefristet-in-neuss",
+   "job_slug": "vollzeit-vorarbeiter-galabau-unbefristet-in-neuss-1",
    "bereich_vorschlag": [
     "galabau"
    ],
